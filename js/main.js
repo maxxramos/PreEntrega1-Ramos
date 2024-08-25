@@ -13,7 +13,7 @@ function contarVocales() {
             }
         }
 
-        alert("La palabra '" + palabra + "' contiene " + contador + " vocales.");
+        alert(palabra + " contiene " + contador + " vocales.");
 
         // Preguntar si desea analizar otra palabra
         continuar = confirm("¿Querés analizar otra palabra?");
